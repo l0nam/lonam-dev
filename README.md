@@ -7,7 +7,7 @@
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss" alt="Tailwind" />
   
   <br/>
-  <img src="https://img.shields.io/badge/16%20years%20old-blue?style=for-the-badge" alt="Age" />
+  <img src="https://img.shields.io/badge/18%20years%20old-blue?style=for-the-badge" alt="Age" />
 </div>
 
 ---
