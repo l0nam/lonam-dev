@@ -24,10 +24,10 @@ export default function Home() {
             <Time />
           </div>
 
-          {/* Правая колонка */}
+          {/* Правая колонка*/}
           <div className="w-full lg:flex-1">
             <LatestProject />
-          </div>
+          </div> 
         </div>
       </div>
     </div>

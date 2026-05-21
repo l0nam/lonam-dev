@@ -14,7 +14,7 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 const GITHUB_USER = "l0nam";
-const FEATURED_PROJECTS = ["portfolio"];
+const FEATURED_PROJECTS = ["lonam-dev"];
 
 interface Repo {
   name: string;
@@ -97,7 +97,7 @@ export default function LatestProject() {
 
       <CardContent>
         <div
-          className={`relative bg-muted-foreground overflow-hidden rounded-xl ring-1 ring-foreground/10 ${project.description ? "h-65" : "h-73"}`}
+          className={`relative bg-muted-foreground overflow-hidden rounded-xl ring-1 ring-foreground/10 ${project.description ? "h-55" : "h-73"}`}
         >
           <Image
             src={previewUrl}
