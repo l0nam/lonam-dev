@@ -79,8 +79,9 @@ export default function ProfileCard() {
             "React",
             "TypeScript",
             "UI/UX",
-            "Java",
             "Node.js",
+            "Java",
+            "Kotlin",
             "Denizen",
             "MC Plugins",
           ].map((tag, i) => (
@@ -117,7 +118,11 @@ export default function ProfileCard() {
                   variant="outline"
                   asChild
                 >
-                  <Link href={data.href} aria-label={data.title} target="_blank">
+                  <Link
+                    href={data.href}
+                    aria-label={data.title}
+                    target="_blank"
+                  >
                     {data.icon}
                   </Link>
                 </Button>
