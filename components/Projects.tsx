@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   ArrowUpRightIcon,
   GithubLogoIcon,
@@ -60,7 +60,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }}
       transition={{ delay: index * 0.1, duration: 0.5, ease: "easeOut" }}
-      className="group relative flex flex-col p-6 rounded-2xl border hover:border-lime-500/25 transition-all duration-300"
+      className="group relative flex flex-col p-6 rounded-2xl border hover:border-lime-500/25 transition-colors duration-300"
     >
       {/* Номер + статус */}
       <div className="flex items-center justify-between mb-4">

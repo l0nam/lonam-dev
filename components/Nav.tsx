@@ -25,7 +25,7 @@ export default function Nav() {
       initial={{ opacity: 0, y: -16 }}
       animate={{ opacity: 1, y: 0 }}
       className={[
-        "fixed top-0 inset-x-0 z-50 transition-all duration-300",
+        "fixed top-0 inset-x-0 z-50 transition-colors duration-300",
         scrolled ? "bg-surface/80 backdrop-blur-lg border-b" : "bg-transparent",
       ].join(" ")}
     >

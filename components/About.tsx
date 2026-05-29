@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   SparkleIcon,
   MapPinIcon,
@@ -104,7 +104,7 @@ export default function About() {
             {facts.map(({ icon: Icon, label, value }) => (
               <div
                 key={label}
-                className="flex items-center gap-4 p-4 rounded-xl bg-surface-raised border hover:border-lime-500/25 transition-all duration-200 group"
+                className="flex items-center gap-4 p-4 rounded-xl bg-surface-raised border hover:border-lime-500/25 transition-colors duration-200 group"
               >
                 <span className="shrink-0 w-9 h-9 flex items-center justify-center rounded-lg bg-lime-500/10 text-lime-500 group-hover:scale-110 transition-transform duration-200">
                   <Icon size={18} weight="duotone" />

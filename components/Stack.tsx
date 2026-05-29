@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import {
   CheckCircleIcon,
   CircleIcon,
@@ -132,7 +132,7 @@ function CoreCard({ item, index }: { item: TechItem; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }}
       transition={{ delay: index * 0.06, duration: 0.45, ease: "easeOut" }}
-      className="group p-4 rounded-xl border hover:border-lime-500/25 transition-all duration-200"
+      className="group p-4 rounded-xl border hover:border-lime-500/25 transition-colors duration-200"
     >
       <div className="flex items-start justify-between mb-2">
         <div>
@@ -165,7 +165,7 @@ function ExploreCard({ item, index }: { item: TechItem; index: number }) {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.1 }}
       transition={{ delay: index * 0.06, duration: 0.45, ease: "easeOut" }}
-      className="group flex items-start gap-3 p-4 rounded-xl border hover:border-muted-foreground/50 transition-all duration-200"
+      className="group flex items-start gap-3 p-4 rounded-xl border hover:border-muted-foreground/50 transition-colors duration-200"
     >
       <CircleIcon
         size={16}
