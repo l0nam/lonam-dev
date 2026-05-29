@@ -25,7 +25,7 @@ const PROJECTS: Project[] = [
     title: "GlobalCommunity",
     description:
       "Лендинг для Minecraft-сервера с анимированными блоками, FAQ и всей необходимой информацей о сервере.",
-    tags: ["Next.js", "TypeScript", "TailwindCSS", "Framer Motion"],
+    tags: ["NextJS", "TypeScript", "TailwindCSS", "Framer Motion"],
     live: "https://globalcommunity.ru",
     featured: true,
     status: "done",
@@ -34,9 +34,9 @@ const PROJECTS: Project[] = [
     number: "02",
     title: "Elunova",
     description:
-      "",
-    tags: ["React", "Tailwind", "shadcn/ui", "Framer Motion", "Radix UI"],
-    live: "https://example.com",
+      "Лендинг для Minecraft-сервера с системой миров, галереей построек и трёхшаговой инструкцией по входу. Сделан для практики компонентной архитектуры и адаптивной вёрстки в React/Next.js.",
+    tags: ["NextJS", "TailwindCSS", "shadcn/ui", "Framer Motion"],
+    live: "https://elunova-mcserver.vercel.app/",
     status: "archive",
   },
 ];
