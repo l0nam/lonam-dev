@@ -57,8 +57,8 @@ export default function About() {
               variants={childVariants}
               className="font-heading text-4xl md:text-5xl font-semibold tracking-tighter"
             >
-              Строю веб, <span className="text-lime-500">один компонент</span>{" "}
-              за раз.
+              Пишу код, собираю интерфейсы,{" "}
+              <span className="text-lime-500">которые работают</span>.
             </motion.h2>
 
             <motion.p
