@@ -35,9 +35,9 @@ export function Contacts() {
       <div className="relative w-full p-6 lg:p-12 text-white rounded-3xl overflow-hidden">
         <div className="absolute inset-0">
           <Grainient
-            color1="#84CC16"
-            color2="#10B981"
-            color3="#06B6D4"
+            color1="#00a16b"
+            color2="#00bc7d"
+            color3="#9ae600"
             timeSpeed={0.25}
             colorBalance={0}
             warpStrength={1}

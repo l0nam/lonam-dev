@@ -18,9 +18,9 @@ import {
 import type { IconType } from "react-icons";
 import { Card, CardHeader, CardTitle, CardDescription } from "../ui/card";
 import { TextAnimate } from "../ui/text-animate";
-import { Ripple } from "../ui/ripple";
 import { DotPattern } from "../ui/dot-pattern";
 import { Tooltip, TooltipContent, TooltipTrigger } from "../ui/tooltip";
+import { FlickeringGrid } from "../ui/flickering-grid";
 
 type StackItem = {
   name: string;
@@ -152,7 +152,7 @@ export function Stack() {
       className={cn(
         "py-24 relative overflow-hidden",
         "bg-linear-to-br from-lime-400 to-emerald-500",
-        "dark:from-lime-950 dark:to-emerald-950",
+        "dark:bg-linear-to-t dark:from-background dark:to-emerald-950",
         "transition-colors duration-700",
       )}
       id="stack"
@@ -186,12 +186,8 @@ export function Stack() {
               </CardDescription>
             </CardHeader>
 
-            <div className="relative mx-6">
-              <div className="absolute inset-0 border rounded-xl overflow-hidden">
-                <Ripple />
-              </div>
-
-              <div className="relative z-10 grid grid-cols-3 sm:grid-cols-4 gap-3 p-6">
+            <div className="relative mx-6 border rounded-xl">
+              <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 p-6">
                 {coreStack.map((item, i) => (
                   <StackTile key={item.name} item={item} index={i} />
                 ))}
@@ -213,12 +209,8 @@ export function Stack() {
               </CardDescription>
             </CardHeader>
 
-            <div className="relative mx-6">
-              <div className="absolute inset-0 border rounded-xl overflow-hidden">
-                <DotPattern glow={true} />
-              </div>
-
-              <div className="relative z-10 grid grid-cols-3 sm:grid-cols-4 gap-3 p-6">
+            <div className="relative mx-6 border rounded-xl">
+              <div className="grid grid-cols-3 sm:grid-cols-4 gap-3 p-6">
                 {notCoreStack.map((item, i) => (
                   <StackTile key={item.name} item={item} index={i} />
                 ))}
